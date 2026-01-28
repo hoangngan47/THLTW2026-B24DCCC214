@@ -15,6 +15,14 @@
 			},
 		],
 	},
+	{
+  	path: '/baitap2',
+  	name: 'Bài tập 2',
+  	icon: 'BookOutlined',
+  	component: '@/pages/BaiTap2',
+	},
+
+
 
 	///////////////////////////////////
 	// DEFAULT MENU
