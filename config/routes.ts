@@ -46,6 +46,7 @@ export default [
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+
 	{
 		path: '/baitap1',
 		name: 'Game đoán số',
@@ -53,6 +54,26 @@ export default [
 		component: '@/pages/BaiTap1',
 	},
 
+	{
+    path: '/th02',
+    name: 'Bài Thực Hành 02',
+    icon: 'AppstoreOutlined',
+    routes: [
+      {
+        path: '/th02/baitap1',
+        name: 'Bài tập 1',
+        component: '@/pages/TH02/BaiTap1',
+      },
+      {
+        path: '/th02/baitap2',
+        name: 'Bài tập 2',
+        component: '@/pages/TH02/BaiTap2',
+      },
+    ],
+  },
+
+
+	
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

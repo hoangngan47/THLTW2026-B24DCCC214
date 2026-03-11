@@ -17,12 +17,12 @@ const BaiTap1: React.FC = () => {
     const number = Number(guess);
 
     if (!number || number < 1 || number > 100) {
-      setMessage('⚠️ Hãy nhập số từ 1 đến 100');
+      setMessage('Hãy nhập số từ 1 đến 100');
       return;
     }
 
     if (number === randomNumber) {
-      setMessage('🎉 Chúc mừng! Bạn đã đoán đúng!');
+      setMessage('Chúc mừng! Bạn đã đoán đúng!');
       setGameOver(true);
       return;
     }
