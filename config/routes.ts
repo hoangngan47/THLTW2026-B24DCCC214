@@ -1,4 +1,7 @@
-﻿export default [
+﻿import component from "@/locales/en-US/component";
+import path from "node:path";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -18,6 +21,7 @@
 
 	///////////////////////////////////
 	// DEFAULT MENU
+	
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
@@ -41,6 +45,12 @@
 		name: 'TodoList',
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
+	},
+	{
+		path: '/baitap1',
+		name: 'Game đoán số',
+		icon: 'AimOutlined',
+		component: '@/pages/BaiTap1',
 	},
 
 	// DANH MUC HE THONG
