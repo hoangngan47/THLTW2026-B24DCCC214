@@ -43,6 +43,12 @@
 		component: './TodoList',
 	},
 
+	{
+  path: '/TH04',
+  name: 'TH04',
+  component: '@/pages/TH04',
+},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
