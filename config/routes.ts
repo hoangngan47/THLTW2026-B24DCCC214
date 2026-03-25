@@ -42,12 +42,17 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-
+{
+  path: '/TH03',
+  name: 'TH03',
+  component: '@/pages/TH03',
+},
 	{
   path: '/TH04',
   name: 'TH04',
   component: '@/pages/TH04',
 },
+
 
 	// DANH MUC HE THONG
 	// {
