@@ -57,7 +57,16 @@
   name: 'TH05',
   component: '@/pages/TH05',
 },
-
+{
+  path: '/TH06',
+  name: 'TH06',
+  component: '@/pages/TH06',
+},
+{
+  path: '/KTGK',
+  name: 'KTGK',
+  component: '@/pages/KTGK',
+},
 
 	// DANH MUC HE THONG
 	// {
