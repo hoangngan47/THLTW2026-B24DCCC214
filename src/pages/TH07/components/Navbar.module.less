@@ -1,0 +1,46 @@
+.navbar {
+  background: linear-gradient(90deg, #1890ff 0%, #0050b3 100%);
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.menu {
+  flex: 1;
+  margin-left: 32px;
+
+  :global {
+    .ant-menu-item {
+      color: rgba(255, 255, 255, 0.85) !important;
+      border-bottom: 2px solid transparent !important;
+
+      &:hover {
+        color: white !important;
+        border-bottom-color: rgba(255, 255, 255, 0.4) !important;
+      }
+
+      &.ant-menu-item-selected {
+        color: white !important;
+        border-bottom-color: white !important;
+      }
+    }
+  }
+}

@@ -63,6 +63,11 @@
   component: '@/pages/TH06',
 },
 {
+  path: '/TH07',
+  name: 'TH07',
+  component: '@/pages/TH07',
+},
+{
   path: '/KTGK',
   name: 'KTGK',
   component: '@/pages/KTGK',

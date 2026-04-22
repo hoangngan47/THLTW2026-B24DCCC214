@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+
+  :global {
+    .ant-pagination {
+      .ant-pagination-item-active {
+        background-color: #1890ff;
+        border-color: #1890ff;
+
+        a {
+          color: white;
+        }
+      }
+
+      .ant-pagination-item:hover {
+        border-color: #1890ff;
+
+        a {
+          color: #1890ff;
+        }
+      }
+
+      .ant-pagination-next button:hover,
+      .ant-pagination-prev button:hover {
+        color: #1890ff;
+        border-color: #1890ff;
+      }
+    }
+  }
+}

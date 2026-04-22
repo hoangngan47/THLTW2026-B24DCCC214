@@ -1,0 +1,74 @@
+.aboutPage {
+  padding: 32px 24px;
+  background: #fafafa;
+  min-height: calc(100vh - 64px);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+
+  h1 {
+    font-size: 32px;
+    color: #1890ff;
+    margin: 0;
+  }
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.authorSection {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.authorInfo {
+  flex: 1;
+
+  h2 {
+    font-size: 28px;
+    color: #1890ff;
+    margin: 0 0 12px 0;
+  }
+
+  :global {
+    .ant-space {
+      margin-top: 16px;
+
+      a {
+        button {
+          color: #1890ff;
+          border-color: #1890ff;
+          transition: all 0.3s ease;
+
+          &:hover {
+            color: white;
+            background-color: #1890ff;
+            border-color: #1890ff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bio {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
