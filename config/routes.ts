@@ -72,7 +72,11 @@
   name: 'KTGK',
   component: '@/pages/KTGK',
 },
-
+{
+  path: '/TH09',
+  name: 'TH09',
+  component: '@/pages/TH09',
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
